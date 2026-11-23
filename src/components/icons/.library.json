@@ -1,0 +1,32 @@
+{
+  "library": "iconoir",
+  "prefix": "iconoir",
+  "source": "iconify",
+  "installedAt": "2026-10-21T06:46:18.667Z",
+  "icons": [
+    "arrow-right",
+    "cancel",
+    "cart",
+    "check",
+    "clock",
+    "code",
+    "edit-pencil",
+    "globe",
+    "graduation-cap",
+    "graph-up",
+    "healthcare",
+    "hospital",
+    "mail",
+    "megaphone",
+    "menu",
+    "message",
+    "nav-arrow-down",
+    "nav-arrow-right",
+    "organic-food",
+    "rocket",
+    "search",
+    "shield-check",
+    "three-stars",
+    "whatsapp"
+  ]
+}

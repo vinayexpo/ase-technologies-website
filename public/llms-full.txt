@@ -1,0 +1,112 @@
+# Laravel LLM Full Configuration
+# Complete configuration for Laravel LLM integration
+
+# ==========================================
+# Application Settings
+# ==========================================
+
+app:
+  name: "ASE Technologies"
+  url: "https://asetechnologies.in"
+  description: "ASE Technologies - Digital Marketing & Web Solutions"
+  version: "1.0.0"
+  environment: "production"
+
+# ==========================================
+# LLM Provider Configuration
+# ==========================================
+
+provider:
+  name: "openai"
+  type: "chat"
+  model: "gpt-4o-mini"
+  temperature: 0.7
+  max_tokens: 4096
+
+  # API Configuration
+  api_key: "YOUR_OPENAI_API_KEY_HERE"
+  organization: "YOUR_OPENAI_ORG_ID_HERE"
+
+# ==========================================
+# Feature Flags
+# ==========================================
+
+features:
+  chat: true
+  knowledge_base: true
+  code_assistance: true
+  sentiment_analysis: true
+  summarization: true
+  translation: true
+  function_calling: true
+
+# ==========================================
+# Knowledge Base Configuration
+# ==========================================
+
+knowledge_base:
+  enabled: true
+  vector_store: "pinecone"
+  embedding_model: "text-embedding-3-small"
+  chunk_size: 500
+  chunk_overlap: 50
+  similarity_threshold: 0.7
+
+# ==========================================
+# Chat Configuration
+# ==========================================
+
+chat:
+  max_history: 50
+  session_timeout: 3600
+  welcome_message: "Hello! How can I help you with ASE Technologies today?"
+  fallback_message: "I'm sorry, I don't have an answer for that. Please contact our support team."
+
+# ==========================================
+# Security & Rate Limiting
+# ==========================================
+
+security:
+  rate_limit: 100
+  tokens_per_minute: 2000
+  allowed_origins:
+    - "https://asetechnologies.in"
+    - "http://localhost:3000"
+
+# ==========================================
+# Integration Settings
+# ==========================================
+
+integrations:
+  analytics: true
+  crm: false
+  email_marketing: true
+  support_ticket: true
+
+# ==========================================
+# Multilingual Support
+# ==========================================
+
+i18n:
+  default_locale: "en"
+  supported_locales: ["en", "es", "fr", "de", "hi"]
+  translation_provider: "openai"
+
+# ==========================================
+# Monitoring & Logging
+# ==========================================
+
+monitoring:
+  enabled: true
+  log_level: "info"
+  sentry_dsn: "YOUR_SENTRY_DSN_HERE"
+
+# ==========================================
+# Contact & Support
+# ==========================================
+
+support:
+  email: "support@ase-technologies.com"
+  phone: "+91-XXXX-XXXXXX"
+  working_hours: "9:00 AM - 6:00 PM IST"
+  chat_widget_id: "your-chat-widget-id"

@@ -1,0 +1,27 @@
+# Laravel LLM Integration Configuration
+# This file provides Laravel LLM integration settings
+
+# Application Information
+app_name: ASE Technologies
+app_url: https://asetechnologies.in
+app_version: 1.0.0
+
+# LLM Provider Configuration
+llm_provider: openai
+openai_api_key: YOUR_OPENAI_API_KEY_HERE
+model_name: gpt-4o-mini
+
+# Feature Flags
+enable_chat: true
+enable_knowledge_base: true
+enable_code_assistance: true
+
+# CORS Configuration
+cors_origin: https://asetechnologies.in
+
+# Security Settings
+rate_limit: 60
+tokens_per_minute: 1000
+
+# Contact
+support_email: support@ase-technologies.com

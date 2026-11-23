@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#fdf3e4"/>
+  <text x="400" y="300" font-family="Arial" font-size="32" fill="#a36c08" text-anchor="middle" font-weight="bold">Holi Celebration</text>
+  <circle cx="200" cy="200" r="50" fill="#be123c" opacity="0.7"/>
+  <circle cx="400" cy="150" r="45" fill="#c2410c" opacity="0.8"/>
+  <circle cx="600" cy="250" r="40" fill="#e6a52e" opacity="0.7"/>
+  <circle cx="300" cy="400" r="55" fill="#f4bd4b" opacity="0.8"/>
+  <circle cx="550" cy="350" r="35" fill="#d49a24" opacity="0.7"/>
+</svg>

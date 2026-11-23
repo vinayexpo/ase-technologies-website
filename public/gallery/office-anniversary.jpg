@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#fdfcf9"/>
+  <text x="400" y="300" font-family="Arial" font-size="32" fill="#6b6157" text-anchor="middle" font-weight="bold">Office Anniversary</text>
+  <rect x="100" y="150" width="600" height="300" fill="#e8ddc8"/>
+  <circle cx="400" cy="300" r="80" fill="#f4bd4b" opacity="0.3"/>
+  <circle cx="400" cy="300" r="120" fill="#e6a52e" opacity="0.15"/>
+</svg>
