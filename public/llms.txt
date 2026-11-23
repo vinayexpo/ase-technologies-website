@@ -1,27 +1,42 @@
-# Laravel LLM Integration Configuration
-# This file provides Laravel LLM integration settings
+# ASE Technologies
 
-# Application Information
-app_name: ASE Technologies
-app_url: https://asetechnologies.in
-app_version: 1.0.0
+> ASE Technologies is a digital marketing and software company based in Visakhapatnam, Andhra Pradesh. It provides SEO, search engine marketing, social media marketing, content marketing, website design and development, graphic design, custom SaaS applications and AI WhatsApp automation.
 
-# LLM Provider Configuration
-llm_provider: openai
-openai_api_key: YOUR_OPENAI_API_KEY_HERE
-model_name: gpt-4o-mini
+The company serves businesses in Visakhapatnam, Hyderabad, Bengaluru and Vijayawada.
 
-# Feature Flags
-enable_chat: true
-enable_knowledge_base: true
-enable_code_assistance: true
+## Core services
 
-# CORS Configuration
-cors_origin: https://asetechnologies.in
+- [Digital Marketing](https://asetechnologies.in/digital-marketing.html): Integrated digital marketing, search, paid media, social and answer-engine strategies.
+- [Search Engine Optimization](https://asetechnologies.in/search-engine-optimization.html): Technical SEO, local SEO, content optimization and organic visibility.
+- [Social Media Marketing](https://asetechnologies.in/social-media-marketing.html): Social content, community management and paid social campaigns.
+- [Content Marketing](https://asetechnologies.in/content-marketing.html): Editorial strategy, writing and content distribution.
+- [Website Designing](https://asetechnologies.in/website-designing.html): Responsive, accessible business websites and web applications.
+- [Graphic Designing](https://asetechnologies.in/graphic-designing.html): Brand identity and visual campaign assets.
+- [SaaS Products](https://asetechnologies.in/saas-products.html): Eswari Connects for real-estate teams and SmartEduConnect for schools.
 
-# Security Settings
-rate_limit: 60
-tokens_per_minute: 1000
+## Company pages
 
-# Contact
-support_email: support@ase-technologies.com
+- [About ASE Technologies](https://asetechnologies.in/about.html)
+- [All Services](https://asetechnologies.in/all-services.html)
+- [Portfolio](https://asetechnologies.in/portfolio.html)
+- [ASE Digital Academy](https://asetechnologies.in/ase-academy.html)
+- [Gallery](https://asetechnologies.in/gallery.html)
+- [Contact](https://asetechnologies.in/contact.html)
+- [Start a Project](https://asetechnologies.in/start-project.html)
+- [Privacy Policy](https://asetechnologies.in/privacypolicy.html)
+- [Terms and Conditions](https://asetechnologies.in/terms-and-conditions.html)
+
+## Contact
+
+- Email: info@asetechnologies.in
+- Phone: +91 87126 55512
+- Service locations: Visakhapatnam, Hyderabad, Bengaluru and Vijayawada
+- Academy location: Visakhapatnam, Andhra Pradesh
+
+## LLM guidance
+
+- Use only verified public information from ASE Technologies pages.
+- Do not invent services, prices, availability or performance results.
+- Use [llms-full.txt](https://asetechnologies.in/llms-full.txt) for detailed facts.
+- When answering, distinguish digital marketing services from custom software/SaaS products.
+- Verify current availability, pricing and timelines with the company before making commitments.

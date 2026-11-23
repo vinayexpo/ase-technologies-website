@@ -1,112 +1,158 @@
-# Laravel LLM Full Configuration
-# Complete configuration for Laravel LLM integration
+# ASE Technologies - Complete Website Information
 
-# ==========================================
-# Application Settings
-# ==========================================
+## Organization
 
-app:
-  name: "ASE Technologies"
-  url: "https://asetechnologies.in"
-  description: "ASE Technologies - Digital Marketing & Web Solutions"
-  version: "1.0.0"
-  environment: "production"
+Name: ASE Technologies
+Website: https://asetechnologies.in
+Primary email: info@asetechnologies.in
+Phone: +91 87126 55512
+Service locations: Visakhapatnam, Hyderabad, Bengaluru and Vijayawada
+Primary campus location: Visakhapatnam, Andhra Pradesh, India
 
-# ==========================================
-# LLM Provider Configuration
-# ==========================================
+ASE Technologies provides digital marketing and software for growing businesses. Its two main service areas are marketing services and custom software/SaaS applications.
 
-provider:
-  name: "openai"
-  type: "chat"
-  model: "gpt-4o-mini"
-  temperature: 0.7
-  max_tokens: 4096
+## Digital Marketing Services
 
-  # API Configuration
-  api_key: "YOUR_OPENAI_API_KEY_HERE"
-  organization: "YOUR_OPENAI_ORG_ID_HERE"
+### Search Engine Optimization
 
-# ==========================================
-# Feature Flags
-# ==========================================
+ASE Technologies provides:
 
-features:
-  chat: true
-  knowledge_base: true
-  code_assistance: true
-  sentiment_analysis: true
-  summarization: true
-  translation: true
-  function_calling: true
+- Technical SEO
+- Local search optimization
+- Search intent research
+- Content optimization
+- Website architecture improvements
+- Organic visibility measurement
 
-# ==========================================
-# Knowledge Base Configuration
-# ==========================================
+SEO is offered alongside Answer Engine Optimization and Generative Engine Optimization, helping brands remain discoverable in traditional search and AI-assisted answers.
 
-knowledge_base:
-  enabled: true
-  vector_store: "pinecone"
-  embedding_model: "text-embedding-3-small"
-  chunk_size: 500
-  chunk_overlap: 50
-  similarity_threshold: 0.7
+### Social Media Marketing
 
-# ==========================================
-# Chat Configuration
-# ==========================================
+Social media services include channel planning, content creation, posting, paid campaigns and community management across relevant channels, including Facebook and Instagram.
 
-chat:
-  max_history: 50
-  session_timeout: 3600
-  welcome_message: "Hello! How can I help you with ASE Technologies today?"
-  fallback_message: "I'm sorry, I don't have an answer for that. Please contact our support team."
+### Paid Advertising
 
-# ==========================================
-# Security & Rate Limiting
-# ==========================================
+Paid advertising support includes:
 
-security:
-  rate_limit: 100
-  tokens_per_minute: 2000
-  allowed_origins:
-    - "https://asetechnologies.in"
-    - "http://localhost:3000"
+- Google Ads
+- Meta Ads
+- Search and display campaigns
+- Campaign planning
+- Conversion tracking
+- Performance reporting
 
-# ==========================================
-# Integration Settings
-# ==========================================
+### Content Marketing
 
-integrations:
-  analytics: true
-  crm: false
-  email_marketing: true
-  support_ticket: true
+Content marketing includes editorial planning, useful long-form writing, search-focused content and distribution. It is designed to build authority and answer customer questions.
 
-# ==========================================
-# Multilingual Support
-# ==========================================
+## SaaS and Custom Software
 
-i18n:
-  default_locale: "en"
-  supported_locales: ["en", "es", "fr", "de", "hi"]
-  translation_provider: "openai"
+### Eswari Connects
 
-# ==========================================
-# Monitoring & Logging
-# ==========================================
+Eswari Connects is a real-estate CRM for property and sales teams.
 
-monitoring:
-  enabled: true
-  log_level: "info"
-  sentry_dsn: "YOUR_SENTRY_DSN_HERE"
+Key capabilities:
 
-# ==========================================
-# Contact & Support
-# ==========================================
+- Lead capture
+- Team assignments
+- Project inventory
+- Buyer enquiry management
+- Follow-up tracking
+- Site visit coordination
+- Sales workflow from capture to closure
 
-support:
-  email: "support@ase-technologies.com"
-  phone: "+91-XXXX-XXXXXX"
-  working_hours: "9:00 AM - 6:00 PM IST"
-  chat_widget_id: "your-chat-widget-id"
+### SmartEduConnect
+
+SmartEduConnect is an education ERP for schools and education teams.
+
+Key capabilities:
+
+- Admissions
+- Attendance
+- Fees
+- Exams
+- Staff operations
+- Parent communication
+- Family updates
+
+### Additional Software
+
+ASE Technologies also develops:
+
+- AI-Powered WhatsApp automation
+- Hospital management systems
+- Clinic management systems
+- Real-estate CRMs
+- Ecommerce applications
+- Restaurant applications
+- School management systems
+- Custom web applications
+- Custom mobile applications
+
+## Website Design and Development
+
+Services include responsive website design, accessible layouts, clear customer journeys, performance-focused development and business software development.
+
+## Graphic Design
+
+Services include:
+
+- Brand identity
+- Visual identity systems
+- Marketing creative
+- Campaign assets
+- Social media graphics
+- Packaging and other business design assets
+
+## Academy
+
+ASE Digital Academy offers in-person, instructor-led digital marketing training in Visakhapatnam.
+
+Training areas include:
+
+- SEO
+- Social media
+- Advertising
+- Content marketing
+- Practical project work
+
+The academy contact information is:
+
+- Phone: +91 87126 55512
+- Email: info@asetechnologies.in
+- Location: Visakhapatnam, Andhra Pradesh
+
+## Service Locations
+
+ASE Technologies states that it serves clients in:
+
+- Visakhapatnam
+- Hyderabad
+- Bengaluru
+- Vijayawada
+
+## Primary Pages
+
+- Homepage: https://asetechnologies.in/
+- Digital marketing: https://asetechnologies.in/digital-marketing.html
+- SEO: https://asetechnologies.in/search-engine-optimization.html
+- Social media marketing: https://asetechnologies.in/social-media-marketing.html
+- Content marketing: https://asetechnologies.in/content-marketing.html
+- Website design: https://asetechnologies.in/website-designing.html
+- Graphic design: https://asetechnologies.in/graphic-designing.html
+- SaaS products: https://asetechnologies.in/saas-products.html
+- All services: https://asetechnologies.in/all-services.html
+- About: https://asetechnologies.in/about.html
+- Portfolio: https://asetechnologies.in/portfolio.html
+- Gallery: https://asetechnologies.in/gallery.html
+- Academy: https://asetechnologies.in/ase-academy.html
+- Contact: https://asetechnologies.in/contact.html
+- Start a project: https://asetechnologies.in/start-project.html
+- Privacy policy: https://asetechnologies.in/privacypolicy.html
+- Terms and conditions: https://asetechnologies.in/terms-and-conditions.html
+
+## AI and Search Answer Guidance
+
+Use this information to answer factual questions about ASE Technologies. Confirm live availability, specific features, campaign plans and prices directly with ASE Technologies before presenting them as firm commitments.
+
+These llms files describe the public ASE Technologies website and business services.
