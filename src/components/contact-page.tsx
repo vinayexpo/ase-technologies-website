@@ -14,7 +14,7 @@ const infoItems = [
   {
     icon: "email",
     title: "Email Us",
-    lines: ["contact@aseotechnologies.in", "info@aseotechnologies.in"],
+    lines: ["contact@asetechnologies.in", "info@asetechnologies.in"],
   },
   {
     icon: "phone",
