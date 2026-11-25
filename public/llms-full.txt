@@ -143,6 +143,7 @@ ASE Technologies states that it serves clients in:
 - SaaS products: https://asetechnologies.in/saas-products.html
 - All services: https://asetechnologies.in/all-services.html
 - About: https://asetechnologies.in/about.html
+- Careers: https://asetechnologies.in/careers.html
 - Portfolio: https://asetechnologies.in/portfolio.html
 - Gallery: https://asetechnologies.in/gallery.html
 - Academy: https://asetechnologies.in/ase-academy.html

@@ -14,7 +14,7 @@ type Source = {
 
 /** The tools ASE Technologies connects — one per service we run. */
 const sources: Source[] = [
-  { label: "Search Console", tint: "#1A73E8", glyph: "search" },
+  { label: "Google Search Console", tint: "#1A73E8", glyph: "search" },
   { label: "Instagram", tint: "#E1306C", glyph: "instagram" },
   { label: "Google Ads", tint: "#FBBC04", glyph: "ads" },
   { label: "Meta Ads", tint: "#0668E1", glyph: "meta" },
@@ -171,18 +171,17 @@ export function AgentsSection({
   href?: string;
   className?: string;
 }) {
-  const [active, setActive] = useState(0);
+  const [active, setActive] = useState(sourceIndex ?? 0);
   const [cycle, setCycle] = useState(0);
   const [running, setRunning] = useState(false);
   const [reduced, setReduced] = useState(false);
   const [typedTitle, setTypedTitle] = useState("");
   const [typedBody, setTypedBody] = useState("");
   const frameRef = useRef<HTMLDivElement>(null);
-  const started = useRef(false);
   const typedKey = useRef("");
 
   const cards = insights && insights.length > 0 ? insights : [insight];
-  const card = cards[Math.min(active, cards.length - 1)];
+  const card = cards[active] ?? insight;
   const source = sources[active];
   const done = typedBody.length > 0 && typedBody === card.body;
 
@@ -207,12 +206,10 @@ export function AgentsSection({
     return () => query.removeEventListener("change", update);
   }, []);
 
-  // The scan starts the moment the card is first seen.
+  // Start each scan from the service's primary source when it enters view.
   useEffect(() => {
-    if (!running || started.current) return;
-    started.current = true;
+    if (!running) return;
     setActive(sourceIndex ?? 0);
-    setCycle((value) => value + 1);
   }, [running, sourceIndex]);
 
   // The agent moves to the next source every few seconds — one after one,
@@ -238,7 +235,7 @@ export function AgentsSection({
     typedKey.current = key;
 
     const timers: number[] = [];
-    const clear = () => timers.forEach((t) => window.clearTimeout(t));
+    const clear = () => timers.forEach((timer) => window.clearTimeout(timer));
 
     if (reduced) {
       setTypedTitle(card.title);

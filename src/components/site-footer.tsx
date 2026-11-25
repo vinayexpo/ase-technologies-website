@@ -13,6 +13,7 @@ const serviceLinks = [
 
 const companyLinks = [
   { href: "/all-services.html", label: "All services" },
+  { href: "/careers.html", label: "Careers" },
   { href: "/#how-it-works", label: "How we work" },
   { href: "/#faq", label: "FAQ" },
   { href: "/digital-marketing.html", label: "Start a campaign" },
@@ -151,7 +152,6 @@ export function SiteFooter() {
           )}
         >
           <p>© 2026 ASE Technologies</p>
-          <p>Prototype build — form submissions are not sent.</p>
         </div>
       </Container>
     </footer>

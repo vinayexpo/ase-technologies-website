@@ -54,6 +54,7 @@ const navLinks = [
     description: "Our story and team",
     children: [{ href: "/portfolio.html", label: "Portfolio", description: "Our projects and work" }],
   },
+  { href: "/careers.html", label: "Careers" },
   { href: "/contact.html", label: "Contact Us" },
 ];
 
@@ -69,6 +70,7 @@ const mobileLinks: { href: string; label: string; child?: boolean }[] = [
   { href: "/ase-academy.html", label: "ASE Academy" },
   { href: "/about.html", label: "About Us", child: true },
   { href: "/portfolio.html", label: "Portfolio", child: true },
+  { href: "/careers.html", label: "Careers" },
   { href: "/contact.html", label: "Contact Us" },
 ];
 

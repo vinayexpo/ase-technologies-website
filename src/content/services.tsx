@@ -61,6 +61,7 @@ export type ServicePageData = {
     body: string;
     label: string;
     insight: { title: string; body: string };
+    insights: { title: string; body: string }[];
     /** Which connected source this agent reads from. */
     sourceIndex?: number;
   };
@@ -101,6 +102,28 @@ export const services: ServicePageData[] = [
         title: "Your blog, not your homepage, drives signups.",
         body: "Traffic is fine. Structure is not.",
       },
+      insights: [
+        {
+          title: "A high-impression page is missing from the index.",
+          body: "Resolve its crawl issue before adding more content.",
+        },
+        {
+          title: "Campaign clicks land on a page that misses the search intent.",
+          body: "Align the landing-page message with the audience's query.",
+        },
+        {
+          title: "Paid traffic converts, but organic pages do not.",
+          body: "Improve the pages that already attract qualified visitors.",
+        },
+        {
+          title: "Social referrals leave before reaching useful content.",
+          body: "Match page speed and messaging to the campaign.",
+        },
+        {
+          title: "Keyword research is missing from the latest content briefs.",
+          body: "Update the plan with new query and ranking opportunities.",
+        },
+      ],
     },
 visual: <SeoPageArt />,
     sections: [
@@ -196,6 +219,28 @@ visual: <SeoPageArt />,
         title: "Replies convert better than posts.",
         body: "Your DMs are doing the work.",
       },
+      insights: [
+        {
+          title: "Brand searches rise after social campaigns launch.",
+          body: "Connect campaign timing to changes in branded search.",
+        },
+        {
+          title: "Reels drive saves, but profile visits are not converting.",
+          body: "Make the profile link and next step clearer.",
+        },
+        {
+          title: "Paid search brings new followers at a lower cost.",
+          body: "Test the strongest search themes in your next social posts.",
+        },
+        {
+          title: "Retarget engaged viewers before the campaign ends.",
+          body: "Build an audience from recent video and post interactions.",
+        },
+        {
+          title: "New creative is ready but missing from the content calendar.",
+          body: "Link the shared assets to the upcoming campaign plan.",
+        },
+      ],
     },
 visual: <SocialPageArt />,
     sections: [
@@ -300,6 +345,28 @@ visual: <SocialPageArt />,
         title: "Most of your bounce is one layout.",
         body: "On mobile, above the fold.",
       },
+      insights: [
+        {
+          title: "A key page is difficult to use from mobile search.",
+          body: "Simplify its layout and make the main action easy to reach.",
+        },
+        {
+          title: "Social visitors leave on your slowest landing page.",
+          body: "Reduce the page weight and make the message match the post.",
+        },
+        {
+          title: "The campaign page is missing its mobile lead form.",
+          body: "Restore the form above the fold on smaller screens.",
+        },
+        {
+          title: "Visitors from Instagram leave before the primary action.",
+          body: "Make the next step visible without extra scrolling.",
+        },
+        {
+          title: "Design files do not match the assets on the live site.",
+          body: "Sync the shared source files before the next release.",
+        },
+      ],
     },
 visual: <WebPageArt />,
     sections: [
@@ -391,6 +458,28 @@ visual: <WebPageArt />,
         title: "Your best topic is not the obvious one.",
         body: "It is in your sales calls.",
       },
+      insights: [
+        {
+          title: "Related customer questions have no dedicated guide.",
+          body: "Create a useful page for the queries already earning impressions.",
+        },
+        {
+          title: "Audience questions point to the next article topic.",
+          body: "Turn recurring comments into a practical, shareable answer.",
+        },
+        {
+          title: "Paid search reveals a topic worth expanding organically.",
+          body: "Build on the queries already bringing qualified visits.",
+        },
+        {
+          title: "Shared articles retain readers longer than campaign posts.",
+          body: "Promote the helpful content that keeps audiences engaged.",
+        },
+        {
+          title: "Sales-call notes are not making it into editorial briefs.",
+          body: "Turn customer language into the next content outline.",
+        },
+      ],
     },
 visual: <ContentPageArt />,
     sections: [
@@ -471,6 +560,28 @@ visual: <ContentPageArt />,
         title: "Two channels still use the old logo.",
         body: "Since March.",
       },
+      insights: [
+        {
+          title: "Search results still show an outdated brand description.",
+          body: "Update the page metadata to match your current positioning.",
+        },
+        {
+          title: "Recent posts use two different visual identities.",
+          body: "Bring templates and profile assets back to the same system.",
+        },
+        {
+          title: "Campaign ads mix old and new brand colors.",
+          body: "Refresh the active creatives using the approved palette.",
+        },
+        {
+          title: "Retargeting visuals do not match the current campaign.",
+          body: "Replace older variants so every audience sees the same brand.",
+        },
+        {
+          title: "Shared folders contain duplicate logo exports.",
+          body: "Keep one clearly named, approved set for the whole team.",
+        },
+      ],
     },
 visual: <BrandPageArt />,
     sections: [
@@ -551,6 +662,28 @@ visual: <BrandPageArt />,
         title: "Adoption dips after week three.",
         body: "The onboarding is too long.",
       },
+      insights: [
+        {
+          title: "Search visitors leave before reaching the product trial.",
+          body: "Make the product value and trial path easier to find.",
+        },
+        {
+          title: "Social comments cluster around onboarding questions.",
+          body: "Use the recurring questions to improve your getting-started flow.",
+        },
+        {
+          title: "Trial signups dipped after the campaign page changed.",
+          body: "Compare the new flow with the previous version and restore clarity.",
+        },
+        {
+          title: "Retargeting ads include customers who already subscribed.",
+          body: "Exclude active accounts to focus spend on new prospects.",
+        },
+        {
+          title: "Release notes and product documentation are out of sync.",
+          body: "Update the shared docs to reflect the latest product changes.",
+        },
+      ],
     },
 visual: <SaasPageArt />,
     sections: [

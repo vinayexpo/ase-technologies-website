@@ -113,9 +113,11 @@ export function AboutPage() {
               </Reveal>
               <Reveal className="gallery-item-wrap">
                 <div className="relative h-[400px] rounded-2xl bg-surface-container-low overflow-hidden border border-border">
-                  <div className="absolute inset-0 flex items-center justify-center text-muted">
-                    Our office in Visakhapatnam
-                  </div>
+                  <img
+                    src="/images/about-story-team.svg"
+                    alt="AI-generated illustration of a creative team working together in a bright office"
+                    className="h-full w-full object-cover"
+                  />
                 </div>
               </Reveal>
             </div>
@@ -133,10 +135,10 @@ export function AboutPage() {
                 The principles behind every project we take on.
               </p>
             </div>
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid auto-rows-fr gap-6 md:grid-cols-2">
               {values.map((value, index) => (
                 <Reveal key={value.title} className="gallery-item-wrap">
-                  <article className="rounded-2xl border border-border bg-surface-bright p-8 shadow-sm hover:shadow-md transition-all duration-300">
+                  <article className="h-full rounded-2xl border border-border bg-surface-bright p-8 shadow-sm hover:shadow-md transition-all duration-300">
                     <div className="flex h-10 w-10 items-center justify-center rounded-full bg-amber-100 text-amber-600 mb-6">
                       <span className="font-bold">0{index + 1}</span>
                     </div>

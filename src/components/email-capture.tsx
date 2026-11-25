@@ -5,12 +5,10 @@ import { Input } from "@/components/ui/input";
 /** The email capture that closes every slide of the stage. */
 export function EmailCapture({ className }: { className?: string }) {
   const [email, setEmail] = useState("");
-  const [sent, setSent] = useState(false);
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (!email.trim()) return;
-    setSent(true);
     window.location.href = `/start-project.html?email=${encodeURIComponent(email.trim())}`;
   }
 
@@ -41,11 +39,6 @@ export function EmailCapture({ className }: { className?: string }) {
           <NavArrowRightIcon className="size-5" aria-hidden="true" />
         </button>
       </form>
-      <p className="stage-form-note">
-        {sent
-          ? "Thanks — we'll be in touch within one business day."
-          : "Free 30-minute audit. No card, no lock-in."}
-      </p>
     </div>
   );
 }

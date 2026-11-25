@@ -324,6 +324,7 @@ export function ServicePage({ service }: { service: ServicePageData }) {
           body={service.agents.body}
           label={service.agents.label}
           insight={service.agents.insight}
+          insights={service.agents.insights}
           sourceIndex={service.agents.sourceIndex}
           href="#lead"
         />

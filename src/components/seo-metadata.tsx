@@ -69,6 +69,11 @@ const pageMetadata: Record<string, { title: string; description: string }> = {
     description:
       "Meet ASE Technologies, a digital marketing and product studio serving businesses across India.",
   },
+  "/careers.html": {
+    title: "Careers at ASE Technologies",
+    description:
+      "Build your future with ASE Technologies. Explore sales and business development opportunities in Visakhapatnam for freshers and experienced professionals.",
+  },
   "/contact.html": {
     title: "Contact ASE Technologies",
     description:
